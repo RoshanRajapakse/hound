@@ -51,7 +51,7 @@ end
 
 group :test do
   gem "capybara"
-  gem "factory_bot_rails"
+  gem "factory_bot_rails", ">= 6.5.0"
   gem "launchy"
   gem "selenium-webdriver", ">= 4.0.0.alpha4"
   gem "shoulda-matchers"
